@@ -61,31 +61,47 @@ Matrix::MAtrix(){dealloc();}
   return start;
  }
  ll *Matrix::getRow(ll rows){
-  if(rows>r)
+ /* if(rows>r)
   {
    cout<<"error in the index";
   }
   else 
-  {
+  {*/
     ll *rowStart=matrix[rows];
   
   return rowStart;
-  }
+ // }
  
  }
  ll *Matrix::getColumns(ll columns){
-  if(columns>c)
+ /* if(columns>c)
   {
    cout<<"error in the index";
   }
   else 
-  {
+  {*/
     ll *columnsStart=&matrix[0][columns];
   
   return columnsStart;
-  }
+ // }
  
  }
+ /*ll **Matrix::zeros(ll r,ll c)
+ {
+  
+  
+  
+  
+ }*/
+ 
+ //void Matrix::
+ 
+ 
+ 
+ 
+ 
+ 
+ 
  
   return 0;
 }
